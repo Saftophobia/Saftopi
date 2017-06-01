@@ -32,3 +32,11 @@ alias shutdownnow='sudo shutdown -h now'
 
 - Mopidy Music server:
   - https://docs.mopidy.com/en/latest/installation/debian/#debian-install
+
+- TTS:
+```{bash}
+#!/bin/bash
+say() { local IFS=+;/usr/bin/mplayer -ao alsa -really-quiet -noconsolecontrols "http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$*&tl=en"; }
+say $*
+```
+    - TODO: save the audio file, hash the sentence, check for hash before sending request
