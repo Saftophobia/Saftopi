@@ -45,3 +45,10 @@ chmod u+x <filename>.sh
     - TODO: save the audio file, hash the sentence, check for hash before sending request
 
 - STT: 
+
+- Camera:
+```{bash}
+sudo apt-get install motion
+```
+    - https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=7397
+
