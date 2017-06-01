@@ -1,5 +1,13 @@
 # Saftopi
 
+- Components:
+    - Raspberry Pi 3 Model B
+    - SanDisk Ultra Android 32 GB microSDHC Memory Card
+    - Aukru® Micro USB 5 V 3 A Power Supply Charger for Raspberry Pi Model B and 3 Pi Model B/B
+    - HDMI cable + micro USB cable
+    - Raspberry Pi Ibetter Case For Raspberry Pi Model B + heatsinks 
+    - PLAYSTATION 3 Eye
+        
 - Finding the pi:
 ```{bash}
 arp -na | grep -i b8:27:eb
