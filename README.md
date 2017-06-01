@@ -38,5 +38,9 @@ alias shutdownnow='sudo shutdown -h now'
 #!/bin/bash
 say() { local IFS=+;/usr/bin/mplayer -ao alsa -really-quiet -noconsolecontrols "http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$*&tl=en"; }
 say $*
+
+chmod u+x <filename>.sh
 ```
     - TODO: save the audio file, hash the sentence, check for hash before sending request
+
+- STT: 
